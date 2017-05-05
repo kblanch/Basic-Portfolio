@@ -2,10 +2,13 @@
 	box-sizing: border-box;
 }
 
-.body {
+body {
 	
-	background-color: beige;
-	padding: 0px;
+	background-image: url(../images/swirl_pattern.png);
+	background-position: 50px;
+	/*background-repeat: repeat-y;*/
+
+	/*background-color: beige;*/
 }
 
 .header {
@@ -18,7 +21,7 @@
 	left:0;*/
 	background-color: #ffffff;
 	margin-bottom: 20px;
-	border-bottom: 2px solid #cccccc;
+	border-bottom: 3px solid #cccccc;
 	left:0;
 	top:0;
 
@@ -26,7 +29,6 @@
 	position:absolute;
 
 
-	left:0;
 	
 
 
@@ -35,16 +37,34 @@
 
 
 .name {
+	
 	background-color: #4aaaa5;
+	float:left;
+	height:97.5px;
+	margin-left: 160px;
+	font-size: xx-large;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right:30px;
+	color:white;
+	font-weight: bold;
+
+
+
 	/*
 	width:250px;
 	height: 50px;
 	*/
-	padding:10px;
-	float:left;
+	
+
+
+	/*
+
 	color:white;
-	margin-left: 85px;
-	margin-bottom:0px;
+	
+	top:0;
+	*/
+
 	/*
 	font-style: bold;
 	width: 250px;
@@ -55,8 +75,30 @@
 }
 
 .menu {
-	background-color: grey;
+	/*background-color: grey;*/
 	float:right;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	background-color: pink;
+	width: 270px;
+	margin-right: 240px;
+
+	font-size: 17.5px;
+
+	margin-top: 28px;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+}
+
+li {
+	display: inline;
+	font-family: arial;
+	margin: 3px;
 }
 
 .mid {
@@ -66,21 +108,63 @@
 	left:0px;
 	margin-top:40px;
 	width:100%;
-	background-color: orange;
+	/*background-color: orange;*/
+}
+
+h1 {
+	/*float:left: */
+	margin-left: 30px;
+	color:#4aaaa5;
+	width:590px;
+	/*background-color: purple;*/
+	border-bottom: 3px solid #dddddd;
+	padding-bottom: 30px;
+	}
+
+p {
+	margin-left: 30px;
+	margin-bottom: 30px;
+	width:590px;
+
 }
 
 .content {
 	background-color: #ffffff;
 	width:650px;
-	margin-left:85px;
+	margin-left:160px;
 	float:left;
+	border:2px solid #dddddd;
 }
 
 .social{
 	background-color: #ffffff;
 	width:270px;
-	float: left;
-	margin-left: 40px;
+	float: right;
+	margin-right: 240px;
+	padding: 32.5px 32.5px 32.5px 32.5px;
+	border: 2px solid #dddddd;
+}
+
+h2 {
+	/*margin-left: 32.5px;*/
+	/*margin-right:32.5px;*/
+	width:205px;
+	height: 45px;
+	color:#4aaaa5;
+	border-bottom: 1.5px solid #dddddd;
+	margin-top: 0px;
+
+}
+
+.small {
+	width: 60px;
+	height: 60px;
+}
+
+.small-margin {
+	width: 60px;
+	height: 60px;
+	margin-left: 6.5px;
 }
 
 .footer {
