@@ -6,6 +6,7 @@ body {
 	
 	background-image: url(../images/swirl_pattern.png);
 	background-position: 50px;
+	/*position:relative;*/
 	/*background-repeat: repeat-y;*/
 
 	/*background-color: beige;*/
@@ -78,27 +79,35 @@ body {
 	/*background-color: grey;*/
 	float:right;
 	border: 1px;
-	border-color: black;
-	border-style: solid;
-	background-color: pink;
+	/*border-color: black;*/
+	/*border-style: solid;*/
+	/*background-color: pink;*/
 	width: 270px;
 	margin-right: 240px;
 
-	font-size: 17.5px;
+	font-size: 21px;
 
 	margin-top: 28px;
+	color: #777777;
+	line-height: 28px;
 
 }
 
 ul {
 	list-style-type: none;
 	margin: 0px;
+	padding:0px;
 }
 
 li {
 	display: inline;
 	font-family: arial;
 	margin: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
 }
 
 .mid {
@@ -136,6 +145,14 @@ p {
 	border:2px solid #dddddd;
 }
 
+
+.profile {
+	/*margin-bottom: .75px;*/
+	/*margin-right: 5px;*/
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
 .social{
 	background-color: #ffffff;
 	width:270px;
@@ -167,6 +184,43 @@ h2 {
 	margin-left: 6.5px;
 }
 
+
+
+.contact-form {	
+	margin-left: 30px;
+	margin-bottom: 30px;
+	width:590px;
+	color: #777777;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.text-box{
+	width:590px;
+	height: 30px;
+	margin-top: 5px;
+	color: #777777;
+	margin-bottom: 7px;
+}
+
+.msg-box {
+	width:590px;
+	height:270px;
+	margin-top: 5px;
+	color: #777777;
+
+}
+
+.btn {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border:none;
+	width: 98px;
+	height:35px;
+	margin-top: 20px;
+}
+
+
+
 .footer {
 	/*
 	
@@ -177,11 +231,11 @@ h2 {
 	background-color: #666666;
 	color: #777777;
 	border-top: 10px solid #4aaaa5;
-	height: 55px;
+	height: 92px;
 	text-align: center;
-	padding: 10px;
+	padding: 30px;
 		
-
+	
 	position: absolute;
 	right:0;
 	bottom:0;
